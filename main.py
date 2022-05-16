@@ -18,7 +18,8 @@ def get_fact(fact_num):
 def main():
     fact_list = []
     false_facts = 0
-
+    
+    # estimation of how many facts there are; actual figure not known
     for x in range(1600):
         current_fact = get_fact(x)
 
